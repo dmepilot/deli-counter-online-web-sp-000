@@ -14,9 +14,10 @@ end
 
 def take_a_number(current_line, new_person)
   if current_line == []
-    puts 
+    puts "Welcome, #{new_person}.You are number 1 in line."
+  elsif current_line != []
   current_line << new_person
-  puts "Welcome #{new_person}, you are numer #{current_line.size} in line."
+  puts "Welcome, #{new_person}. You are numer #{current_line.size} in line."
 end
 
 def now_serving
