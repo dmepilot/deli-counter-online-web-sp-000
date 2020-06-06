@@ -4,7 +4,9 @@ def line(current_line)
   if current_line == []
     puts "The line is currently empty."
   elsif current_line != []
-    puts "The line is currently: #{current_line.join}"
+    puts "The line is currently: "
+    current_line.each do |position|
+      puts "#{current_line.index (position)+1} #{position}"
   
   end
 end
