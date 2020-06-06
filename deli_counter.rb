@@ -7,7 +7,6 @@ def line(current_line)
     current_line.each do |position|
       place = current_line.index(position)+1 
     puts "The line is currently: #{place}. #{position} " 
-    puts 
   end
   end
 end
