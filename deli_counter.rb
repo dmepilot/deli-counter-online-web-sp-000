@@ -7,7 +7,7 @@ def line(current_line)
     puts "The line is currently: "
     current_line.collect do |position|
     counter = 1
-    puts counter". #{position.join}"
+    puts counter". #{position}"
     counter += 1
   end
   end
