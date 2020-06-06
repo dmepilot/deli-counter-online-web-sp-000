@@ -1,10 +1,10 @@
 # Write your code here.
 def line(current_line)
-  line_position = (current_line.index + 1).to_s 
+  line_position = (current_line.index + 1)
   if current_line == []
     puts "The line is currently empty."
   elsif current_line != []
-    puts "The line is currently: #{line_position} #{current_line.to_s}"
+    puts "The line is currently: #{line_position} #{current_line.join}"
   end
 end
 
