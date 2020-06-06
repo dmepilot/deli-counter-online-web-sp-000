@@ -1,8 +1,10 @@
 # Write your code here.
 def line(current_line)
   if current_line == []
-    puts 
-  
+    puts "The line is currently empty."
+  else
+    puts "#{current_line}"
+  end
 end
 
 def take_a_number(katz_deli, new_person)
