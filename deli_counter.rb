@@ -13,6 +13,7 @@ def line(current_line)
 end
 
 def take_a_number(current_line, new_person)
+  current_line << new_person
   puts "Welcome #{new_person}, you are numer #{current_line.size} in line."
 end
 
