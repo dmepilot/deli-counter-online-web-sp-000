@@ -17,7 +17,7 @@ def take_a_number(current_line, new_person)
     puts "Welcome, #{new_person}. You are number 1 in line."
     current_line << new_person
 else
-  current_line << new_person
+  current_line.push(new_person)
   puts "Welcome, #{new_person}. You are numer #{current_line.size} in line."
 end
 end
