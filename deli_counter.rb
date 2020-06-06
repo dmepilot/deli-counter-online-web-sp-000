@@ -1,10 +1,14 @@
 # Write your code here.
 def line(current_line)
-  line_position = (current_line.index + 1)
+  current_line.collect do |position|
+    counter = 1
+    puts counter". #{position.join}"
+    counter += 1
   if current_line == []
     puts "The line is currently empty."
   elsif current_line != []
-    puts "The line is currently: #{line_position} #{current_line.join(" ")}"
+    puts "The line is currently: "
+  
   end
 end
 
