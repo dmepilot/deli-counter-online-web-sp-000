@@ -7,7 +7,7 @@ def line(current_line)
     print "The line is currently: "
     current_line.each do |position|
       print "#{current_line.index (position)+1} #{position}"
-  
+  end
   end
 end
 
