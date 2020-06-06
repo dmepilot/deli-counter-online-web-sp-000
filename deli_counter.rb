@@ -18,7 +18,7 @@ def take_a_number(current_line, new_person)
     current_line << new_person
 else
   current_line.push(new_person)
-  puts "Welcome, #{new_person}. You are numer #{current_line.size} in line."
+  puts "Welcome, #{new_person}. You are number #{current_line.size} in line."
 end
 end
 
