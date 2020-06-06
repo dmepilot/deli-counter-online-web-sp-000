@@ -6,7 +6,7 @@ def line(current_line)
   elsif current_line != []
     current_line.each do |position|
       #{current_line.index(position)+1}
-    puts "The line is currently: . " position
+    puts "The line is currently: . " print position
   end
   end
 end
