@@ -4,11 +4,10 @@ def line(current_line)
   if current_line == []
     puts "The line is currently empty."
   elsif current_line != []
-  
+    puts "The line is currently: "
     current_line.each do |position|
-      place = current_line.index(position)+1 
+      print current_line.index(position)+1 
     end
-     #{place}. #{position} " 
   end
 end
 
