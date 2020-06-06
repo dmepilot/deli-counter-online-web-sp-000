@@ -1,6 +1,6 @@
 # Write your code here.
 def line(current_line)
-  line_position = current_line.index + 1 
+  line_position = (current_line.index + 1).to_s 
   if current_line == []
     puts "The line is currently empty."
   elsif current_line != []
