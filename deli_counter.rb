@@ -4,12 +4,11 @@ def line(current_line)
     counter = 1
     puts counter". #{position.join}"
     counter += 1
-  end
   if current_line == []
     puts "The line is currently empty."
   elsif current_line != []
     puts "The line is currently: "
-  
+  end
   end
 end
 
