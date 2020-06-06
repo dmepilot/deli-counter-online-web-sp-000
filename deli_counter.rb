@@ -2,7 +2,7 @@
 def line(current_line)
   if current_line == []
     puts "The line is currently empty."
-  else
+  elsif current_line != []
     puts "#{current_line}"
   end
 end
