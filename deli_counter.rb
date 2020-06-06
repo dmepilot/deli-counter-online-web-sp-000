@@ -28,4 +28,5 @@ def now_serving(current_line, new_person)
   else 
     puts "Currently serving #{new_person}."
     current_line.shift
+  end
 end 
