@@ -22,9 +22,10 @@ else
 end
 end
 
-def now_serving
+def now_serving(current_line, new_person)
   if current_line == []
     puts "There is nobody waiting to be served!"
   else 
-    puts "Currently serving #{new_person}"
+    puts "Currently serving #{new_person}."
+    current_line.shift
 end 
