@@ -5,9 +5,9 @@ def line(current_line)
     puts "The line is currently empty."
   elsif current_line != []
      place = current_line.each do |position|
-      puts " #{current_line.index(position)+1} #{position}" 
+       current_line.index(position)+1  
     end
-      puts "The line is currently: #{place}"
+      puts "The line is currently: #{place}."
  
   end
 end
