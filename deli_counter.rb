@@ -25,4 +25,6 @@ end
 def now_serving
   if current_line == []
     puts "There is nobody waiting to be served!"
+  else 
+    
 end 
