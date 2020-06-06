@@ -6,9 +6,8 @@ def line(current_line)
   elsif current_line != []
     puts "The line is currently: "
     current_line.collect do |position|
-    counter = 1
-    puts counter". #{position}"
-    counter += 1
+    puts ". #{position}"
+  
   end
   end
 end
