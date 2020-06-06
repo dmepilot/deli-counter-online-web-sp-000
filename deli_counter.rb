@@ -6,7 +6,7 @@ def line(current_line)
   elsif current_line != []
       readable_array = []
       readable_array = current_line.collect do |name|
-      (name.to_s).sub(/\A/, " #{current_line.index(name).to_i+1}. ")
+      (name).sub(/\A/, " #{current_line.index(name).to_i+1}. ")
     end
     puts "The line is currently:#{readable_array.join}"
   end
